@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "e1afeebc-e009-404e-849b-83ae56d8c263",
+		"name": "EZ_Works_Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29610719"
+	},
+	"item": [
+		{
+			"name": "Email Submit",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"bhavya@ez.works\"\r\n}"
+				},
+				"url": {
+					"raw": "http://3.228.97.110:9000/api",
+					"protocol": "http",
+					"host": [
+						"3",
+						"228",
+						"97",
+						"110"
+					],
+					"port": "9000",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
