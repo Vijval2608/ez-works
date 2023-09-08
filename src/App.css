@@ -1,0 +1,190 @@
+body{
+  font-family: 'Exo 2', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.App{
+  margin-block: auto;
+  display: inline-flex;
+  height: 100vh;
+}
+
+.left{
+  width: 40%;
+  margin-left: 2.5%;
+  margin-block: auto;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo img{
+  width: 300px;
+}
+
+.sub-head {
+  position: relative;
+  text-align: left;
+  margin-bottom: 8%;
+  line-height: 38px;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #112949;
+  opacity: 1;
+}
+
+.intro {
+  position: relative;
+  text-align: left;
+  margin-block: 4%;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  color: #112949;
+  opacity: 1;
+}
+
+.contact {
+  position: relative;
+}
+
+.Functions {
+  position: relative;
+  margin-inline: 2.5%;
+  margin-block: auto;
+  display: flex;
+  flex-direction: column;
+  width: 52.5%;
+}
+
+.contact input {
+  padding: 12px 15px;
+  font-size: 18px;
+  width: 65%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ABABAB;
+  margin-block: 15px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.contact button {
+  margin-left: 1rem;
+  margin-block: 15px;
+  border-radius: 5px;
+  width: 153.5px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  background-color: #EA7B2C;
+  border: 1px solid #EA7B2C;
+  padding: 16.5px 15px;
+  font-family: 'Exo 2', sans-serif;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.function {
+  background-color: #112949;
+  color: #fff;
+  margin: 1.5%;
+  padding: 2.5%;
+  border-radius: 10px;
+}
+
+.func-header {
+  display: inline-flex;
+  align-items: center;
+}
+
+.function p {
+  margin: 0;
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+.func-header h4 {
+  margin: 0;
+  color: #3CC3F2;
+  font-size: 18px;
+  font-weight: normal;
+  padding-inline: 20px;
+  height: fit-content;
+}
+
+@media (max-width: 759px) {
+  .function {
+    width: 100%;
+    padding: 4%;
+    margin-inline: 0%;
+  }
+}
+
+/* Media query for screen width below 1000px */
+@media (min-width: 760px) and (max-width: 1000px) {
+  .function {
+    width: 42%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .function {
+    width: 25.3%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .App {
+    margin-block: 3rem;
+    display: block;
+    height: auto;
+  }
+
+
+  .function{
+    text-align: left;
+  }
+
+  .left{
+    margin-inline: 4%;
+    width: 92%;
+  }
+
+  .logo{
+    text-align: center;
+  }
+
+  .logo img{
+    max-width: 50%;
+  }
+
+  .sub-head{
+    text-align: center;
+    margin-block: 1rem;
+  }
+
+  .intro{
+    text-align: center;
+  }
+
+  .Functions{
+    width: 92%;
+    margin-inline: auto ;
+  }
+
+  .contact{
+    text-align: center;
+    margin-block: 1rem;
+  }
+
+  .contact input{
+    width: 70%;
+  }
+}
